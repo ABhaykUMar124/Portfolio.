@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: O-light;
+    src: url(/Fonts/OttercoDisplay-Light.woff);
+}
+@font-face {
+    font-family: O-medium;
+    src: url(/Fonts/OttercoDisplay-Medium.woff);
+}
+@font-face {
+    font-family: O-bold;
+    src: url(/Fonts/Otterco-Bold.woff);
+}
+@font-face {
+    font-family: O-regular;
+    src: url(/Fonts/OttercoDisplay-Regular.woff);
+}
+@font-face {
+    font-family: Inter-regular;
+    src: url(/Fonts/Inter-Regular.latin-JLQMKCHE.woff2);
+}
+html{
+    font-size: 10px;
+}
+.page-1{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(200, 200, 200);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4.5rem;
+}
+.left-nav{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.cp-btn{
+    padding: 20px 40px;
+    border-radius: 35px;
+    background-color: white;
+    border: 3px solid rgb(223, 220, 220);
+    font-family: O-light;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.CV-btn{
+    padding: 20px 45px;
+    border-radius: 35px;
+    background-color: white;
+    border: 3px solid rgb(226, 225, 225);
+    font-family: O-light;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.email-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: rgb(226, 225, 225);
+    padding-left: 15px;
+    /* border: 1px solid white; */
+    border-radius: 35px;
+    font-family: O-light;
+}
+.mail{
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+.right-nav{
+    display: flex;
+    gap: 20px;
+}
+.right-nav a{
+    font-size: 15px;
+    text-decoration: none;
+    font-family: O-light;
+    color: black;
+    letter-spacing: .8px;
+    font-weight: 400;
+}
+.right-nav h1{
+    font-size: 15px;
+    font-family: O-light;
+}
