@@ -99,6 +99,10 @@ html{
     letter-spacing: .8px;
     font-weight: 400;
 }
+.links{
+    display: flex;
+    white-space: nowrap;
+}
 .links i{
     font-size: 20px;
 }
@@ -193,4 +197,38 @@ html{
 }
 .Project-btn i{
    font-size: 18px;
+}
+.scroll-page{
+    height: 28rem;
+    width: 100%;
+    display: flex;
+    padding-left: 10px;
+    overflow-x: hidden;
+}
+.scroll-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13rem;
+    
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13rem;
+    animation: infinitescroll 10s infinite linear;
+}
+.box img{
+    height: 10rem;
+    width: 10rem;
+    filter: grayscale(100%);
+}
+@keyframes infinitescroll{
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-110%);
+    }
 }
