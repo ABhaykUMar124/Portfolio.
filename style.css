@@ -87,6 +87,8 @@ html{
 }
 .right-nav{
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 20px;
 }
 .right-nav a{
@@ -97,6 +99,10 @@ html{
     letter-spacing: .8px;
     font-weight: 400;
 }
+.links i{
+    font-size: 20px;
+}
+
 .right-nav h1{
     font-size: 15px;
     font-family: O-light;
