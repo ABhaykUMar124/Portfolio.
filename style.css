@@ -31,6 +31,7 @@ html{
     height: 100vh;
     width: 100%;
     background-color: rgb(200, 200, 200);
+    border-radius: 0rem 0rem 10rem 10rem;
 }
 .navbar{
     display: flex;
@@ -204,6 +205,10 @@ html{
     display: flex;
     padding-left: 10px;
     overflow-x: hidden;
+    background-color: white;
+    border-radius: 0rem 0rem 10rem 10rem;
+    position: relative;
+    z-index: 11;
 }
 .scroll-box{
     display: flex;
@@ -231,4 +236,79 @@ html{
     100%{
         transform: translateX(-110%);
     }
+}
+.page-3{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(200, 200, 200);
+    margin-top: -150px;
+    position: relative;
+    padding-top: 150px;
+}
+.P2-heading{
+    text-align: center;
+    padding-top: 8rem;
+    font-size: 4.5rem;
+    font-family: O-medium;
+    font-weight: 400;
+    letter-spacing: 1px;
+    background: linear-gradient(to right, black, black,rgb(114, 111, 111), rgb(159, 158, 158));
+    background-clip: text;
+    color: transparent;
+}
+.Services{
+    display: flex;
+    align-self: center;
+    margin: 0 auto;
+    justify-self: center;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 4.5rem;
+    background-color: white;
+    font-size: 13px;
+    width: 120px;
+    border-radius: 5rem;
+    font-family: O-medium;
+    letter-spacing: .5px;
+    font-family: 200;
+    color: rgb(49, 48, 48);
+    margin-top: 2rem;
+}
+.Box-section{
+    display: flex;
+    /* padding-left: 25rem;
+    padding-right: 25rem; */
+    padding-top: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+.Card-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-left: 10px;
+}
+.card img{
+    height: 45px;
+    width: 45px;
+}
+.card h1{
+    font-family: O-medium;
+    font-size: 20px;
+    font-weight: 400;
+}
+.card p{
+    font-family: O-light;
+    font-size: 18px;
+    letter-spacing: .8px;
 }
