@@ -135,8 +135,8 @@ main{
     flex-direction: row;
 }
 .img-section img{
-    width: 16rem;
-    height: 16rem;
+    width: 18rem;
+    height: 18rem;
     border-radius: 50%;
     margin: 0 auto;
     display: block;
@@ -148,10 +148,10 @@ main{
 .img-section h1{
     position: relative;
     z-index: 1;
-    margin-left: 22rem;
+    margin-left: 23rem;
     font-family: O-light;
     background-color: white;
-    font-size: 1.3rem;
+    font-size: 12px;
     padding: 1.5rem 1.5rem;
     border-radius: 30px;
     rotate: 350deg;
@@ -188,13 +188,13 @@ main{
     color: transparent;
 }
 .Project-btn{
-    font-size: 1.3rem;
+    font-size: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 2.5rem 3.5rem;
     background-color: rgb(0, 0, 0);
-    margin-top: 2rem;
+    margin-top: 2.5rem;
     text-decoration: none;
     color: white;
     gap: 5px;
@@ -204,7 +204,22 @@ main{
     cursor: pointer;
 }
 .Project-btn i{
-   font-size: 1.8rem;
+   font-size: 15px;
+}
+.CV-btn2{
+    display: none;
+    padding: 2.3rem 9rem;
+    border-radius: 35px;
+    background-color: white;
+    border: 3px solid rgb(226, 225, 225);
+    font-family: O-light;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: 2rem;
+    text-decoration: none;
+    color: black;
 }
 .scroll-page{
     height: 20rem;
@@ -229,7 +244,7 @@ main{
     align-items: center;
     justify-content: center;
     gap: 10rem;
-    animation: infinitescroll 10s infinite linear;
+    animation: infinitescroll 20s infinite linear;
 }
 .box img{
     height: 8rem;
@@ -272,7 +287,7 @@ main{
     justify-content: center;
     padding: 1.5rem 4.5rem;
     background-color: white;
-    font-size: 1.5rem;
+    font-size: 15px;
     width: 120px;
     border-radius: 5rem;
     font-family: O-medium;
@@ -289,20 +304,20 @@ main{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 1rem;
 }
 .Card-section{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
     flex-wrap: wrap;
 
 }
 .card{
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 12px;
     padding-left: 10px;
 }
 .card img{
@@ -399,13 +414,17 @@ main{
         font-size: 8.5px;
     }
     .page-1{
-        padding-top: 150px;
+        height: 650px;
+        padding-top: 90px;
     }
     .page-3{
-        height: 950px;
+        height: 900px;
     }
     .navbar{
         display: none;
+    }
+    .CV-btn2{
+        display: block;
     }
     .left-nav{
         margin: 0 auto;
