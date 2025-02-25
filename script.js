@@ -1,3 +1,9 @@
+const scroll = new LocomotiveScroll({
+    el: document.querySelector('main'),
+    smooth: true
+});
+
+
 var copy = document.querySelector(".cp-btn");
 var textToCopy = document.querySelector('.mail');
 var lightBtn = document.querySelector("#light-btn");
@@ -71,4 +77,5 @@ darkLightBtn.addEventListener('click',function(){
     document.querySelector('.Email-btn').classList.toggle('Email-btn-dark');
     document.querySelector('.WhatsApp-btn').classList.toggle('Whatsap-btn-dark');
     document.querySelector('.footer-text').classList.toggle('footer-text-dark');
+    document.querySelector('.CV-btn2').classList.toggle('CV-btn2-dark')
 });

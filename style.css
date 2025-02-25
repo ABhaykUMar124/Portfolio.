@@ -156,7 +156,7 @@ html{
     gap: 1rem;
 }
 .links{
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     text-decoration: none;
     font-family: O-light;
     color: black;
@@ -164,15 +164,12 @@ html{
     font-weight: 400;
     display: flex;
     align-items: center;
+    justify-content: center;
+    align-items: center;
     white-space: nowrap;
 }
 .links-dark{
-    font-size: 1.3rem;
-    text-decoration: none;
-    font-family: O-light;
     color: rgb(255, 255, 255);
-    letter-spacing: .8px;
-    font-weight: 400;
 }
 .links i{
     font-size: 1.3rem;
@@ -184,8 +181,6 @@ html{
     color: black;
 }
 .back-slash-dark{
-    font-size: 1.5rem;
-    font-family: O-light;
     color: rgb(255, 255, 255);
 }
 .page-section{
@@ -202,7 +197,7 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 70px;
+    margin-top: 60px;
     position: relative;
     flex-direction: row;
 }
@@ -224,28 +219,17 @@ html{
     margin-left: 23rem;
     font-family: O-light;
     background-color: white;
-    font-size: 12px;
+    font-size: 11px;
     padding: 1.5rem 1.5rem;
     border-radius: 30px;
     rotate: 350deg;
     font-weight: 100;
-    letter-spacing: .5px;
+    letter-spacing: .8px;
     animation: flooting 5s linear infinite;
 }
 .name-dark{
-    position: relative;
-    z-index: 1;
-    margin-left: 23rem;
-    font-family: O-light;
     color: white;
     background-color: rgb(18, 18, 18);
-    font-size: 12px;
-    padding: 1.5rem 1.5rem;
-    border-radius: 30px;
-    rotate: 350deg;
-    font-weight: 100;
-    letter-spacing: .5px;
-    animation: flooting 5s linear infinite;
 }
 @keyframes flooting{
     0% {
@@ -291,7 +275,7 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2.5rem 3.5rem;
+    padding: 2.3rem 2.5rem;
     background-color: rgb(0, 0, 0);
     margin-top: 2.5rem;
     text-decoration: none;
@@ -301,13 +285,15 @@ html{
     letter-spacing: 1px;
     border-radius: 80px;
     cursor: pointer;
+    border: 2px solid rgb(215, 211, 211);
 }
 .Project-btn-dark{
     font-size: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2.5rem 3.5rem;
+    padding: 2.3rem 2.5rem;
+    border: 3px solid rgb(95, 93, 93);
     background-color: rgb(255, 255, 255);
     margin-top: 2.5rem;
     text-decoration: none;
@@ -326,7 +312,7 @@ html{
     padding: 2.3rem 9rem;
     border-radius: 35px;
     background-color: white;
-    border: 3px solid rgb(226, 225, 225);
+    border: 3px solid rgb(221, 217, 217);
     font-family: O-light;
     font-weight: 600;
     font-size: 15px;
@@ -336,9 +322,24 @@ html{
     text-decoration: none;
     color: black;
 }
+.CV-btn2-dark{
+    display: none;
+    padding: 2.3rem 9rem;
+    border-radius: 35px;
+    background-color: rgb(0, 0, 0);
+    border: 3px solid rgb(76, 74, 74);
+    font-family: O-light;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: 2rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
 .scroll-page{
     padding-top: -10px;
-    height: 25rem;
+    height: 22rem;
     width: 100%;
     display: flex;
     padding-left: 10px;
@@ -379,8 +380,6 @@ html{
     filter: grayscale(100%);
 }
 .scroll-img-dark{
-    height: 8rem;
-    width: 8rem;
     filter: grayscale(0%);
 }
 @keyframes infinitescroll{
@@ -400,17 +399,12 @@ html{
     padding-top: 150px;
 }
 .page-3-dark{
-    height: 850px;
-    width: 100%;
     background-color: rgb(29, 28, 28);
-    margin-top: -150px;
-    position: relative;
-    padding-top: 150px;
 }
 .P2-heading{
     text-align: center;
-    padding-top: 8rem;
-    font-size: 3rem;
+    padding-top: 5rem;
+    font-size: 4rem;
     font-family: O-medium;
     font-weight: 400;
     letter-spacing: .1rem;
@@ -419,12 +413,6 @@ html{
     color: transparent;
 }
 .P2-heading-dark{
-    text-align: center;
-    padding-top: 8rem;
-    font-size: 3rem;
-    font-family: O-medium;
-    font-weight: 400;
-    letter-spacing: .1rem;
     background: linear-gradient(to right,rgb(223, 222, 222), rgb(215, 214, 214), rgb(87, 86, 86), rgb(39, 38, 38));
     background-clip: text;
     color: transparent;
@@ -448,22 +436,8 @@ html{
     margin-top: 2rem;
 }
 .Services-dark{
-    display: flex;
-    align-self: center;
-    margin: 0 auto;
-    justify-self: center;
-    align-items: center;
-    justify-content: center;
-    padding: 1.5rem 4.5rem;
     background-color: rgb(0, 0, 0);
-    font-size: 13px;
-    width: 120px;
-    border-radius: 5rem;
-    font-family: O-medium;
-    letter-spacing: .5px;
-    font-family: 200;
     color: rgb(252, 252, 252);
-    margin-top: 2rem;
 }
 
 .Box-section{
@@ -472,31 +446,28 @@ html{
     padding-right: 1rem;
     padding-top: 40px;
     justify-content: center;
-    align-items: center;
+    align-items:flex-start;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 3rem;
 }
 .Card-section{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    flex-wrap: wrap;
+
 
 }
 .card{
     display: flex;
     flex-direction: column;
     gap: 12px;
-    padding-left: 10px;
 }
 .dark-images{
-    height: 4.5rem;
-    width: 4.5rem;
+    height: 4.3rem;
+    width: 4.3rem;
 }
 .light-images{
-    height: 4.5rem;
-    width: 4.5rem;
     filter: invert(94%) sepia(60%) saturate(0%) hue-rotate(64deg) brightness(106%) contrast(104%);
 }
 .card-heading{
@@ -506,9 +477,6 @@ html{
     color: black;
 }
 .card-heading-dark{
-    font-family: O-medium;
-    font-size: 17px;
-    font-weight: 400;
     color: rgb(255, 254, 254);
 }
 .card-paragraph{
@@ -518,9 +486,6 @@ html{
     color: black;
 }
 .card-paragraph-dark{
-    font-family: O-light;
-    font-size: 13px;
-    letter-spacing: .8px;
     color: rgb(255, 255, 255);
 }
 .page-4{
@@ -636,8 +601,8 @@ html{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
     height: 8rem;
 }
 .footer-text{
@@ -665,7 +630,7 @@ html{
         padding-top: -50px;
     }
     .page-3{
-        height: 900px;
+        height: 105rem;
     }
     .email-section{
         display: none;
@@ -674,22 +639,19 @@ html{
         display: none;
     }
     .right-nav{
-        display: none;
+        /* display: none; */
     }
     .CV-btn2{
         display: block;
     }
-    .left-nav{
-        margin: 0 auto;
-        flex-direction: column;
-    }
+   
 }
 @media (max-width:460px) {
     html{
         font-size: 7.5px;
     }
     .page-1{
-        height: 620px;
+        height: 665px;
     }
     .page-3{
         height: 880px;
