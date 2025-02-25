@@ -337,7 +337,8 @@ html{
     color: black;
 }
 .scroll-page{
-    height: 20rem;
+    padding-top: -10px;
+    height: 25rem;
     width: 100%;
     display: flex;
     padding-left: 10px;
@@ -391,7 +392,7 @@ html{
     }
 }
 .page-3{
-    height: 850px;
+    height: 85rem;
     width: 100%;
     background-color: rgb(200, 200, 200);
     margin-top: -150px;
@@ -658,13 +659,21 @@ html{
         font-size: 8.5px;
     }
     .page-1{
-        height: 650px;
-        padding-top: 90px;
+        height: 670px;
+    }
+    .page-section{
+        padding-top: -50px;
     }
     .page-3{
         height: 900px;
     }
-    .navbar{
+    .email-section{
+        display: none;
+    }
+    .CV-btn{
+        display: none;
+    }
+    .right-nav{
         display: none;
     }
     .CV-btn2{
@@ -679,9 +688,13 @@ html{
     html{
         font-size: 7.5px;
     }
+    .page-1{
+        height: 620px;
+    }
     .page-3{
         height: 880px;
     }
+    
 }
 
 /* DARK MODE CSS  */
