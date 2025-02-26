@@ -47,6 +47,7 @@ darkLightBtn.addEventListener('click',function(){
         back.classList.toggle('back-slash-dark');
     })
     document.querySelector('.name').classList.toggle('name-dark');
+    document.querySelector('.intro').classList.toggle('intro-dark');
     document.querySelector('.main-text').classList.toggle('main-text-dark');
     document.querySelector('.Project-btn').classList.toggle('Project-btn-dark');
     document.querySelector('.scroll-page').classList.toggle('scroll-page-dark');
