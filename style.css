@@ -265,7 +265,7 @@ html{
 .main-text{
     margin-top: .5rem;
     text-align: center;
-    font-size: 5rem;
+    font-size: 6rem;
     font-family: O-medium;
     font-weight: 400;
     line-height: 6.5rem;
@@ -497,7 +497,7 @@ html{
     color: rgb(255, 255, 255);
 }
 .page-4{
-    height: 73rem;
+    height: 65rem;
     width: 100%;
     background-color: white;
     border-radius: 8rem 8rem 0rem 0rem;
@@ -507,14 +507,7 @@ html{
     padding: .1px;
 }
 .page-4-dark{
-    height: 65rem;
-    width: 100%;
     background-color: black;
-    border-radius: 8rem 8rem 0rem 0rem;
-    margin-top: -150px;
-    position: relative;
-    z-index: 66;
-    padding: .1px;
 }
 .Handshake-img{
     margin: 0 auto;
@@ -525,45 +518,29 @@ html{
     justify-self: center;
     background-color: rgb(225, 223, 223);
     border-radius: 130px;
-    margin-top: 10rem;
+    margin-top: 5rem;
     object-fit: cover;
     object-position: center;
 }
 .Handshake-img-dark{
-    margin: 0 auto;
-    height: 17rem;
-    width: 17rem;
-    display: flex;
-    align-self: center;
-    justify-self: center;
     background-color: rgb(211, 204, 204);
-    border-radius: 130px;
-    margin-top: 10rem;
-    object-fit: cover;
-    object-position: center;
     filter: invert(94%) sepia(60%) saturate(0%) hue-rotate(64deg) brightness(106%) contrast(104%);
 }
 .P4-heading{
     text-align: center;
     font-family: O-medium;
     font-weight: 400;
-    font-size: 5rem;
-    line-height: 8rem;
+    font-size: 6rem;
+    line-height: 7rem;
     background: linear-gradient(to right, black, black,rgb(114, 111, 111), rgb(159, 158, 158));
     background-clip: text;
     color: transparent;
     margin-top: 20px;
 }
 .P4-heading-dark{
-    text-align: center;
-    font-family: O-medium;
-    font-weight: 400;
-    font-size: 5rem;
-    line-height: 8rem;
     background: linear-gradient(to right, rgb(255, 254, 254), rgb(255, 255, 255),rgb(114, 111, 111), rgb(27, 26, 26));
     background-clip: text;
     color: transparent;
-    margin-top: 20px;
 }
 .contact-btns{
     display: flex;
