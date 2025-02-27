@@ -3,7 +3,6 @@ const scroll = new LocomotiveScroll({
     smooth: true
 });
 
-
 var copy = document.querySelector(".cp-btn");
 var textToCopy = document.querySelector('.mail');
 var lightBtn = document.querySelector("#light-btn");
@@ -16,16 +15,13 @@ copy.addEventListener("click" , function() {
     navigator.clipboard.writeText(textToCopy.innerHTML);
 })
 
-
-darkLightBtn.addEventListener('click',function(){
-        
+darkLightBtn.addEventListener('click',function(){    
     if (changeBtn == 0) {
         changeBtn = 1;
         lightBtn.style.display = "block";
         darkBtn.style.display = 'none';
         lightBtn.style.color = "white";
-        document.querySelector(".page-1").style.backgroundColor = "rgb(29, 28, 28)";
-        
+        document.querySelector(".page-1").style.backgroundColor = "rgb(29, 28, 28)";    
     }
     else{
         changeBtn = 0;
@@ -55,7 +51,6 @@ darkLightBtn.addEventListener('click',function(){
     scrollImg.forEach( function (scroll) {
         scroll.classList.toggle('scroll-img-dark')
     })
-
     document.querySelector('.page-3').classList.toggle('page-3-dark');
     document.querySelector('.P2-heading').classList.toggle('P2-heading-dark');
     document.querySelector('.Services').classList.toggle('Services-dark');
